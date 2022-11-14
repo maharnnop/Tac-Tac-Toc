@@ -61,14 +61,6 @@ function changColor(event){
             index.push([parseInt(item[0]),parseInt(item[2])])
         })
 
-        // let checkRow = new Set(row) 
-        // let checkColumn = new Set(column) // change array to set (set cant dulplicate)
-        // if(checkRow.size < row.length-1){ // same row
-        //     afterWin(name)
-        // }else if(checkColumn.size < column.length-1){ // same column
-        //     afterWin(name)
-        // }
-
         for(let prop in rowOb){
             console.log(prop);
             row.forEach((item) =>{
